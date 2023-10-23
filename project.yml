@@ -1,0 +1,12 @@
+parameters: {}
+environment: {}
+packages:
+  - name: checkenv
+    parameters: {}
+    environment: {}
+    actions:
+      - name: helloworld
+        main: ''
+        runtime: 'python:default'
+        parameters: {}
+        environment: {}
